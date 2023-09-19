@@ -5,56 +5,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Site</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Sourajyoti</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto+Mono&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <img src="asset/img1.png" alt="cropped image" id="prof_pic">
-    <h2>John Doe</h2>
-    <p><em>Founder and CTO of
-            <a href="http://appbrewery.com" target="blank">App Brewery</a>
-        </em>
-    </p>
-    <p>I am an ios and Web developer. I love coffee.</p>
-    <hr>
-    <h3>Books and Teaching</h3>
-    <ul>
-        <li>The complete bootcamp 2021</li>
-        <li>The complete bootcamp 2022</li>
-        <li>The complete bootcamp 2023</li>
-    </ul>
-    <h3>Work Experience</h3>
-    <table>
-        <tr>
-            <th>Company</th>
-            <th>Title</th>
-            <th>Years</th>
-        </tr>
-        <tr>
-            <td>App Brewery</td>
-            <td>iOS Developer</td>
-            <td>2019 - Present</td>
-        </tr>
-        <tr>
-            <td>App Brewery</td>
-            <td>Web Developer</td>
-            <td>2019 - Present</td>
-        </tr>
-        <tr>
-            <td>App Brewery</td>
-            <td>Web Developer</td>
-            <td>2019 - Present</td>
-        </tr>
-    </table>
-    <h3>Skills</h3>
-    <ul>
-        <li>iOS</li>
-        <li>Web</li>
-        <li>Coffee</li>
-    </ul>
-    <hr>
-    <a href="contact.html">Contact</a>
+    <header>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <div class="navbar-item">
+                    <a class="button is-rounded is-info is-outlined is-small    ">
+                        Home
+                    </a>
+                </div>
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div class="navbar-menu" id="navbarMenu">
+                <div class="navbar-start">
+                </div>
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="buttons are-small">
+                            <a class="button is-rounded is-info is-light">
+                                About
+                            </a>
+                            <a class="button is-rounded is-info is-light">
+                                Resume
+                            </a>
+                            <a class="button is-rounded is-info is-light">
+                                Skills
+                            </a>
+                            <a class="button is-rounded is-info is-light">
+                                Projects
+                            </a>
+                            <a class="button is-rounded is-info is-light">
+                                Clients
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+        <section class="section is-medium has-text-centered head-section has-text-light">
+            <img src="asset/images/prof_pic_2.jpeg" alt="" class="image is-128x128 prof-pic mb-4">
+
+            <h1 class="title is-1 name-heading has-text-light">Sourajyoti Biswas</h1>
+            <div class="block">
+                <p>I am a computer scientist and engineer, who is good at systems programming and networking.</p>
+                <p>Occationally do game and graphics programming in my free time.</p>
+            </div>
+            <button class="button is-rounded is-danger is-light">
+                <span>Let's GO</span>
+                <span class="icon is-small"><img src="asset/feather/arrow-right.svg" alt="" srcset=""></span>
+            </button>
+        </section>
+    </header>
+
+
+    <footer class="has-text-centered">
+        ©Sourajyoti Biswas
+    </footer>
 </body>
 
 </html>
