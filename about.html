@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto+Mono&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="assets/bulma-timeline.min.css">
     <link rel="stylesheet" href="assets/styles.css">
 </head>
 
@@ -69,43 +70,95 @@
     </header>
     <section class="hero is-medium">
         <div class="hero-body has-text-centered">
-            <h1 class="title is-1 has-text-light is-spaced">Projects</h1>
-            <p class="subtitle  has-text-light">2019-2023</p>
+            <h1 class="title is-1 has-text-light is-spaced">About</h1>
+            <p class="subtitle  has-text-light">2001-2023</p>
         </div>
     </section>
 
-    <div class="container has-text-light">
-        <div class="block">
-            <a href="https://github.com/biswas08433/observe" target="_blank">
-                <div class="box">
-                    <h2 class="title is-3 is-spaced">Observe</h2>
-                    <p class="subtitle is-6">Concurrent monitoring Program for executables</p>
-                    <span class="tag is-link">Go</span>
-                    <span class="tag is-link">Executable</span>
+    <div class="p-3">
+        <div class="box container" style="padding: 5% 0;">
+            <div class="timeline is-centered">
+                <header class="timeline-header">
+                    <span class="tag is-medium is-success">Start</span>
+                </header>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <p class="heading">May 2001</p>
+                        <p>I am born and brought up in <strong>Kolkata</strong>.</p>
+                    </div>
                 </div>
-
-            </a>
-        </div>
-        <div class="block">
-            <a href="https://biswas08433.github.io/sdl2cheats/" target="_blank">
-                <div class="box">
-                    <h2 class="title is-3 is-spaced">SDL Cheat Sheet</h2>
-                    <p class="subtitle is-6">Quick Refrence for SDL2</p>
-                    <span class="tag is-link">Static</span>
+                <header class="timeline-header">
+                    <span class="tag is-info">2011</span>
+                </header>
+                <div class="timeline-item">
+                    <div class="timeline-marker is-image is-32x32">
+                        <img src="https://srkv.org/wp-content/uploads/2016/10/emblem_ramakrishna_order.png" style="
+                            position: relative;top: -3px;scale: 60%;">
+                    </div>
+                    <div class="timeline-content">
+                        <p class="heading">February 2011</p>
+                        <p>I went to Ramakrishna Mission Vidyalaya, Narendrapur for my schooling.</p>
+                        <p>It is a completely <strong>residential</strong> school and I studied there for <strong>8
+                                years</strong>,</p>
+                        <p>including my <b>secondary</b> and <b>higher secondary</b> education.</p>
+                    </div>
                 </div>
-            </a>
-        </div>
-        <div class="block">
-            <a href="https://biswas08433.itch.io/pong" target="_blank">
-                <div class="box">
-                    <h2 class="title is-3 is-spaced">Pong</h2>
-                    <p class="subtitle is-6">A simple but sophisticated pong clone</p>
-                    <span class="tag is-link">Game</span>
-                    <span class="tag is-link">WebGl</span>
+                <div class="timeline-item">
+                    <div class="timeline-marker is-icon" style="padding: 1px;">
+                        <ion-icon name="checkmark-circle-outline" size="large"></ion-icon>
+                    </div>
+                    <div class="timeline-content">
+                        <p class="heading">February 2017</p>
+                        <p><strong>Secondary</strong> Examination</p>
+                    </div>
                 </div>
-            </a>
+                <header class="timeline-header">
+                    <span class="tag is-info">2019</span>
+                </header>
+                <div class="timeline-item">
+                    <div class="timeline-marker is-icon" style="padding: 1px;">
+                        <ion-icon name="checkmark-circle-outline" size="large"></ion-icon>
+                    </div>
+                    <div class="timeline-content">
+                        <p class="heading">February 2019</p>
+                        <p><strong>Higher Secondary</strong> Examination</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker is-icon" style="padding: 1px;">
+                        <ion-icon name="checkmark-circle-outline" size="large"></ion-icon>
+                    </div>
+                    <div class="timeline-content">
+                        <p class="heading">May 2019</p>
+                        <p>I got the <strong>KVPY Fellowship Award - 2018</strong></p>
+                    </div>
+                </div>
+                <header class="timeline-header">
+                    <span class="tag is-info">2022</span>
+                </header>
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                    </div>
+                    <div class="timeline-content">
+                        <p class="heading">October 2022</p>
+                        <p>I got admission into </p>
+                        <p><strong>Government College of Engineering and Ceramic Technology,</strong>
+                        </p>
+                        <p>for pursuing a <strong><em>Bachelor of Technology</em></strong> degree in </p>
+                        <p><Strong>Computer
+                                Science and Engineering.</Strong></p>
+                        <p>Currently I am in <strong>3rd semester</strong> of the curriculam.</p>
+                    </div>
+                </div>
+                <header class="timeline-header">
+                    <span class="tag is-medium is-success">Still Going ... </span>
+                </header>
+            </div>
         </div>
     </div>
+
+
 
     <footer class="footer has-text-centered">
         <section class="section">
@@ -161,6 +214,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!-- script for nav button -->
     <script>
         // Check for click events on the navbar burger icon
         $(".navbar-burger").click(function () {
