@@ -4,7 +4,6 @@ body {
     background-image: url(royal-gradient-background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    overflow: scroll;
 }
 
 .name-heading {
