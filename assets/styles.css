@@ -37,3 +37,7 @@ body {
 .no-border {
     border: 0;
 }
+
+.box {
+    height: 100%;
+}
